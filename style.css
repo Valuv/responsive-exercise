@@ -1,0 +1,31 @@
+:root {
+  --primary: #00668b;
+  --secondary: #8093a1;
+  --tertiary: #948cb1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.primary {
+  background-color: var(--primary);
+}
+
+.secondary {
+  background-color: var(--secondary);
+}
+
+.tertiary {
+  background-color: var(--tertiary);
+}
+
+
